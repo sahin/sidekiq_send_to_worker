@@ -9,6 +9,8 @@ gem 'sidekiq_runner'
 gem 'sidekiq_send_to_worker'
 ```
 
+Add `send_to_worker` to your queues in sidekiq.yml
+
 ### Example
 ```ruby
 # Your worker
