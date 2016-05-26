@@ -1,5 +1,7 @@
 # Sidekiq Send To Worker
 
+[![Code Climate](https://codeclimate.com/github/movielala/sidekiq_send_to_worker/badges/gpa.svg)](https://codeclimate.com/github/movielala/sidekiq_send_to_worker)
+
 This gem provides enqueue jobs from another projects
 
 ## Installing
@@ -52,9 +54,3 @@ SidekiqSendToWorker::Sender.perform_async('UrlShortenerWorker', 'create_from_goo
     $ bundle exec rake test
 
 If you need to test against local gems, use Bundler's gem :path option in the Gemfile and also edit `test/support/test_helper.rb` and tell the tests where the gem is checked out.
-
-## Code Status
-
-* [![Travis CI]()]()
-* [![Gem Version]()]()
-* [![Dependencies]()]()
