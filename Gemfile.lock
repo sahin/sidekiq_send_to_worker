@@ -2,8 +2,8 @@ PATH
   remote: .
   specs:
     sidekiq_send_to_worker (0.0.1)
-      rails (> 4.0)
-      sidekiq (~> 4)
+      rails
+      sidekiq
 
 GEM
   remote: https://rubygems.org/
